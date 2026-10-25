@@ -3546,6 +3546,306 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:LTV-817S-TA1-C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTV-817S-TA1-C"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C109227_OPTO-SMD-4_L4_6-W6_5-P2_54-LS10_3-BL"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Lite-On-LTV-817S-TA1-C_C109227.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LTV-817S-TA1-C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C109227"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "LITEON(光宝)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LTV-817S-TA1-C_1_1"
+				(rectangle
+					(start -6.35 4.318)
+					(end 6.35 -4.318)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -3.048 2.54) (xy -3.048 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 1.27) (xy -3.048 -1.27) (xy -1.27 1.27) (xy -4.572 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -0.254) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0.762) (xy 1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.254 -1.016) (xy -0.254 -1.524) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.016) (xy 1.016 0) (xy 0.508 -0.508) (xy 1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.286) (xy 3.81 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.762) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 5.588 -1.27) (xy 4.826 -2.286) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.397 1.397)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.397 1.397)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.397 1.397)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.397 1.397)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.397 1.397)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.397 1.397)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.397 1.397)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.397 1.397)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:SKC6812RGBW-NW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4126,7 +4426,7 @@
 	)
 	(rectangle
 		(start 64.77 74.93)
-		(end 158.75 100.33)
+		(end 157.48 100.33)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -4172,6 +4472,18 @@
 			(type none)
 		)
 		(uuid "8e8ee93a-18e2-4701-bfdc-80323f43db1b")
+	)
+	(rectangle
+		(start 160.02 102.87)
+		(end 207.01 133.35)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d4fcc09d-622a-417b-be8c-31bb1b76e9b4")
 	)
 	(rectangle
 		(start 13.97 74.93)
@@ -4244,6 +4556,18 @@
 			)
 		)
 		(uuid "89137a2c-33d6-4995-a132-781c84debeea")
+	)
+	(text "Optocoupler"
+		(exclude_from_sim no)
+		(at 188.722 127 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "aafb0aa7-6cd4-445d-ab2d-33ef24c0cdc9")
 	)
 	(text "RGB LED"
 		(exclude_from_sim no)
@@ -4436,6 +4760,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5f3bf04-c7b5-43ac-a393-75b24c9bb269")
+	)
+	(junction
+		(at 234.95 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7876ea4-4f9a-4b96-ba5f-145b22421078")
 	)
 	(junction
 		(at 104.14 60.96)
@@ -4779,7 +5109,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.29 100.33) (xy 161.29 72.39)
+			(xy 160.02 100.33) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0.5)
@@ -4916,6 +5246,16 @@
 			(type default)
 		)
 		(uuid "3eb0a78a-b402-4b25-ae89-6cb4e5bc48f1")
+	)
+	(wire
+		(pts
+			(xy 172.72 119.38) (xy 171.45 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f629059-b44c-455d-9d24-59f72d9cf0ed")
 	)
 	(wire
 		(pts
@@ -5059,6 +5399,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 114.3) (xy 163.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53633040-ac9b-4cfb-bdd9-31c15e88a101")
+	)
+	(wire
+		(pts
 			(xy 148.59 36.83) (xy 148.59 38.1)
 		)
 		(stroke
@@ -5179,7 +5529,7 @@
 	)
 	(polyline
 		(pts
-			(xy 283.21 100.33) (xy 161.29 100.33)
+			(xy 283.21 100.33) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0.5)
@@ -5199,7 +5549,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.29 72.39) (xy 135.89 72.39)
+			(xy 160.02 72.39) (xy 135.89 72.39)
 		)
 		(stroke
 			(width 0.5)
@@ -5376,6 +5726,16 @@
 			(type default)
 		)
 		(uuid "7cfe6237-7017-4bfc-ba59-facd43c54843")
+	)
+	(wire
+		(pts
+			(xy 171.45 119.38) (xy 171.45 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dead3b1-a0f8-4b6d-a902-3325c80e3433")
 	)
 	(wire
 		(pts
@@ -6079,6 +6439,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 95.25) (xy 236.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df367596-9e47-4559-bc4a-4ceb2c858e3f")
+	)
+	(wire
+		(pts
 			(xy 77.47 82.55) (xy 77.47 81.28)
 		)
 		(stroke
@@ -6166,6 +6536,16 @@
 			(type default)
 		)
 		(uuid "f07c0b5d-4a71-4793-9bdd-31e791a21004")
+	)
+	(wire
+		(pts
+			(xy 171.45 114.3) (xy 172.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1278394-5559-4748-90e2-cd0feb5bb163")
 	)
 	(wire
 		(pts
@@ -6412,6 +6792,30 @@
 			)
 		)
 	)
+	(global_label "OPTO_IN"
+		(shape input)
+		(at 162.56 114.3 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dc2e7a3-6688-4b6e-b7bf-204d4b318b15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 103.5133 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "D +"
 		(shape input)
 		(at 119.38 39.37 0)
@@ -6508,9 +6912,9 @@
 			)
 		)
 	)
-	(global_label "SSR_2"
+	(global_label "OPTO_2"
 		(shape input)
-		(at 195.58 111.76 0)
+		(at 195.58 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6520,7 +6924,7 @@
 		)
 		(uuid "6263abfc-e217-4ba1-b964-07640e8a767f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.4313 111.76 0)
+			(at 205.6409 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,9 +7275,9 @@
 			)
 		)
 	)
-	(global_label "SSR_1"
+	(global_label "OPTO_1"
 		(shape input)
-		(at 195.58 109.22 0)
+		(at 195.58 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6883,7 +7287,31 @@
 		)
 		(uuid "ebfbbe2c-a51e-4f4b-b26f-e55059d8f768")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.4313 109.22 0)
+			(at 205.6409 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "OPTO_IN"
+		(shape input)
+		(at 236.22 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6188518-9325-41d7-9512-d12aeb4da0f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.0067 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7481,6 +7909,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 171.45 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f639e55-1e37-4965-9687-c3a58f80d6a9")
+		(property "Reference" "#PWR013"
+			(at 171.45 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17e81887-95d4-42d6-89ce-ec35222dd33b")
+		)
+		(instances
+			(project "Garage-Door-Controller"
+				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 88.9 86.36 0)
 		(unit 1)
@@ -7583,7 +8089,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "150"
 			(at 142.24 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7958,6 +8464,114 @@
 			(project "Garage-Door-Controller"
 				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:LTV-817S-TA1-C")
+		(at 184.15 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec6fad2-303d-4653-8d73-e5c31d435c4d")
+		(property "Reference" "U3"
+			(at 184.15 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-817S-TA1-C"
+			(at 184.15 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C109227_OPTO-SMD-4_L4_6-W6_5-P2_54-LS10_3-BL"
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Lite-On-LTV-817S-TA1-C_C109227.pdf"
+			(at 181.864 116.713 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LTV-817S-TA1-C"
+			(at 184.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C109227"
+			(at 184.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "LITEON(光宝)"
+			(at 184.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "3c7013d3-1a5b-4e33-b7fd-972bdeb2d042")
+		)
+		(pin "3"
+			(uuid "ffe037d0-c616-4ea0-98eb-cff515955add")
+		)
+		(pin "1"
+			(uuid "5dbdb442-6d3c-4ba0-b509-c6fc7c7aaa9c")
+		)
+		(pin "2"
+			(uuid "af81f893-2786-43f6-86bf-1d204c1d6be3")
+		)
+		(instances
+			(project "Garage-Door-Controller"
+				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8533,9 +9147,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "909fb909-0a66-4648-abdd-63a0b79f24c7")
 		(property "Reference" "J2"
@@ -9654,9 +10268,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "abb6cc0c-9c24-4525-8cf1-8430c89f5add")
 		(property "Reference" "J3"
@@ -10249,6 +10863,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 167.64 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e484f482-6b65-4da7-ae97-0d705ef6532b")
+		(property "Reference" "R4"
+			(at 167.64 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 167.64 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 167.894 113.284 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 167.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa944018-631a-4d3c-851d-fe2948b8434f")
+		)
+		(pin "1"
+			(uuid "1efe03b3-74e3-454c-a988-4fd4e35a26aa")
+		)
+		(instances
+			(project "Garage-Door-Controller"
+				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 254 93.98 180)
 		(unit 1)
@@ -10280,7 +10974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 254 93.98 0)
 			(hide yes)
 			(show_name no)
