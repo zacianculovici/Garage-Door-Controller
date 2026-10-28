@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.65,
+          "height": 0.65,
+          "width": 0.65
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -632,7 +632,7 @@
         "uuid": "8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
       }
     ],
-    "used_designators": "U3-4,#PWR13-14,J4-5,R4,LED2,USB1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
