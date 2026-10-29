@@ -7784,6 +7784,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 232.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1e929954-c6c9-42c7-b2a1-bb9fedcd9fed")
 		)
@@ -7866,6 +7877,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 148.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13283de7-be45-4550-a427-a680b979e214")
 		)
@@ -7938,6 +7960,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8400,6 +8433,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 195.58 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13283de7-be45-4550-a427-a680b979e216")
 		)
@@ -8639,6 +8683,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13283de7-be45-4550-a427-a680b979e217")
 		)
@@ -8709,6 +8764,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17471"
+			(at 142.24 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8790,6 +8856,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 266.7 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 266.7 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8958,6 +9035,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C82544"
+			(at 73.66 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f07067a0-3d30-4b63-b485-c0dd23fd5b1d")
 		)
@@ -9109,6 +9197,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1653"
 			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9309,6 +9408,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 229.87 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09c30cbd-d397-45f4-be1f-9ab4e5ce9bfe")
 		)
@@ -9381,6 +9491,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 264.16 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9550,6 +9671,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7433850"
+			(at 86.36 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8acfc7b3-c274-4319-af98-8a6571fb2766")
 		)
@@ -9710,6 +9842,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C27834"
+			(at 39.37 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2973e9e2-5c92-4092-88d5-8f7e2fd51fb6")
 		)
@@ -9860,6 +10003,17 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
 			(at 77.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7433850"
+			(at 77.47 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10123,6 +10277,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 158.75 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2973e9e2-5c92-4092-88d5-8f7e2fd51fb7")
 		)
@@ -10273,6 +10438,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1653"
 			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10551,6 +10727,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C27834"
+			(at 29.21 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de11b5fe-5e60-4301-a949-0752420e9e92")
 		)
@@ -10624,6 +10811,17 @@
 		)
 		(property "Description" "ESP32-C3-MINI-1 family is an ultra-low-power MCU-based SoC solution that supports 2.4 GHz Wi-Fi and Bluetooth®Low Energy (Bluetooth LE)."
 			(at 195.58 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2838502"
+			(at 195.58 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11119,6 +11317,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 207.01 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13283de7-be45-4550-a427-a680b979e21c")
 		)
@@ -11526,6 +11735,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 77.47 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13283de7-be45-4550-a427-a680b979e21d")
 		)
@@ -11608,6 +11828,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 118.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13283de7-be45-4550-a427-a680b979e21e")
 		)
@@ -11679,6 +11910,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 167.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17471"
+			(at 167.64 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11952,6 +12194,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 222.25 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2973e9e2-5c92-4092-88d5-8f7e2fd51fb9")
 		)
@@ -12024,6 +12277,17 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
 			(at 95.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7433850"
+			(at 95.25 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12115,6 +12379,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 148.59 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2973e9e2-5c92-4092-88d5-8f7e2fd51fba")
 		)
@@ -12184,6 +12459,17 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 104.14 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6186"
 			(at 104.14 82.55 0)
 			(hide yes)
 			(show_name no)
