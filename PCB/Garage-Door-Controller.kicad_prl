@@ -7,7 +7,6 @@
     "hidden_nets": [
       "VDD3.3",
       "GND",
-      "Net-(AE1-A)",
       "Net-(LED2-A)",
       "CHIP_EN",
       "GPIO1",
@@ -15,8 +14,9 @@
       "OPTO_2",
       "OPTO_1",
       "GPIO9",
-      "Net-(U4-LNA_IN)",
+      "Net-(U4-XTAL_P)",
       "VIN",
+      "Net-(U4-XTAL_N)",
       "Net-(USB2-CC2)",
       "GPIO0",
       "GPIO2",
@@ -31,7 +31,9 @@
       "D+",
       "U0RXD",
       "U0TXD",
-      "Net-(USB2-CC1)"
+      "Net-(USB2-CC1)",
+      "USBD+",
+      "USBD-"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
