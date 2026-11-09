@@ -1024,10 +1024,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Antenna"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:Antenna_Shield"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1038,7 +1035,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "AE"
-				(at -1.905 1.905 0)
+				(at -1.905 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1048,8 +1045,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
+			(property "Value" "Antenna_Shield"
+				(at -1.905 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1060,7 +1057,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1071,7 +1068,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1081,7 +1078,7 @@
 					)
 				)
 			)
-			(property "Description" "Antenna"
+			(property "Description" "Antenna with extra pin for shielding"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1103,10 +1100,22 @@
 					)
 				)
 			)
-			(symbol "Antenna_0_1"
+			(symbol "Antenna_Shield_0_1"
+				(arc
+					(start 0 -2.667)
+					(mid -0.8485 -2.1032)
+					(end -0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -3.81)
+						(xy 0 5.08) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -1118,10 +1127,69 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -1.143)
+					(mid 0.8046 -2.0885)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1129,7 +1197,7 @@
 					)
 				)
 			)
-			(symbol "Antenna_1_1"
+			(symbol "Antenna_Shield_1_1"
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -1141,6 +1209,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7211,16 +7297,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 292.1) (xy 76.2 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c977ca5-023f-4773-800f-59e9d8cef148")
-	)
-	(wire
-		(pts
 			(xy 179.07 295.91) (xy 184.15 295.91)
 		)
 		(stroke
@@ -7228,6 +7304,16 @@
 			(type default)
 		)
 		(uuid "1ca79633-0931-4e10-8093-13a6bec2b4ad")
+	)
+	(wire
+		(pts
+			(xy 63.5 294.64) (xy 63.5 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd29e79-448d-4e8e-ad81-1ef2153f812f")
 	)
 	(wire
 		(pts
@@ -8731,6 +8817,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 294.64) (xy 60.96 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88091045-65a7-47d4-adc0-07be6291fc21")
+	)
+	(wire
+		(pts
 			(xy 234.95 95.25) (xy 234.95 45.72)
 		)
 		(stroke
@@ -9881,7 +9977,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 295.91) (xy 85.09 295.91)
+			(xy 63.5 295.91) (xy 85.09 295.91)
 		)
 		(stroke
 			(width 0)
@@ -10564,6 +10660,30 @@
 			)
 		)
 	)
+	(global_label "GPIO4"
+		(shape input)
+		(at 120.65 355.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2623e1a2-ca78-4be0-95dc-3dd6f00f89cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.98 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VIN"
 		(shape input)
 		(at 50.8 345.44 90)
@@ -10636,6 +10756,30 @@
 			)
 		)
 	)
+	(global_label "GPIO1"
+		(shape input)
+		(at 120.65 363.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "278e5543-742b-46df-93ed-c0bfadb5f0de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.98 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "OPTO_1"
 		(shape input)
 		(at 80.01 382.27 0)
@@ -10681,6 +10825,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO10"
+		(shape input)
+		(at 134.62 353.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34fb5d66-7263-4349-b1b3-4373be4ba4fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.4995 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -10889,54 +11057,6 @@
 		(uuid "43ee0da1-bfb9-4533-82c7-7a5fb54fa2c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 246.8252 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "U0TXD"
-		(shape input)
-		(at 134.62 360.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "45363822-ac04-4703-9d7b-66020da774fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.5923 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO10"
-		(shape input)
-		(at 134.62 358.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "464f7a81-b301-45ef-b932-58b34f73619b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4995 358.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11212,30 +11332,6 @@
 			)
 		)
 	)
-	(global_label "GPIO0"
-		(shape input)
-		(at 120.65 353.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66a4636f-e1c9-4402-b68a-0babcc281cd9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.98 353.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "VIN"
 		(shape input)
 		(at 24.13 260.35 180)
@@ -11308,6 +11404,78 @@
 			)
 		)
 	)
+	(global_label "GPIO0"
+		(shape input)
+		(at 120.65 365.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "724ca10b-fec6-487c-aeb0-76db5c6a9a4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.98 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO5"
+		(shape input)
+		(at 120.65 358.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "742a6429-b60a-49c4-82e2-48ea64f86108")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.98 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO2"
+		(shape input)
+		(at 120.65 360.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "804735da-c306-4a54-8510-54fb2893a83b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.98 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO9"
 		(shape input)
 		(at 242.57 71.12 0)
@@ -11329,30 +11497,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO4"
-		(shape input)
-		(at 120.65 363.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "82077b47-965b-4fa7-881e-06e72817c4fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.98 363.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -11378,30 +11522,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO5"
-		(shape input)
-		(at 120.65 365.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8804e02c-7daa-439b-a2d3-ba3d6e12322a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.98 365.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -11767,6 +11887,30 @@
 			)
 		)
 	)
+	(global_label "GPIO3"
+		(shape input)
+		(at 120.65 353.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b23dab83-c5b1-4aea-9d19-674bdc4bef13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.98 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VIN"
 		(shape input)
 		(at 198.12 370.84 180)
@@ -11793,7 +11937,7 @@
 	)
 	(global_label "GPIO9"
 		(shape input)
-		(at 140.97 331.5844 180)
+		(at 140.97 331.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11803,7 +11947,7 @@
 		)
 		(uuid "b2d3b68c-99b6-4d16-b7e3-3391224da717")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.3 331.5844 0)
+			(at 132.3 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11884,30 +12028,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "U0RXD"
-		(shape input)
-		(at 134.62 363.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc60926e-e22f-4b28-b85d-7e26db147d6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.8947 363.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -12008,30 +12128,6 @@
 			)
 		)
 	)
-	(global_label "GPIO1"
-		(shape input)
-		(at 120.65 355.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9984cb5-517b-4c2a-ba00-c3707ff96494")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.98 355.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "GPIO2"
 		(shape input)
 		(at 163.83 365.76 180)
@@ -12053,30 +12149,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO8"
-		(shape input)
-		(at 134.62 353.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce42a337-e1ee-4671-895c-36c6fb11b129")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.29 353.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -12129,6 +12201,54 @@
 			)
 		)
 	)
+	(global_label "U0RXD"
+		(shape input)
+		(at 134.62 360.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4d6b464-a235-4606-95c0-be626b591008")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.8947 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO8"
+		(shape input)
+		(at 134.62 358.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d73dd897-8b26-4df1-8f0f-ea6dba169936")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.29 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VCC_3V3"
 		(shape input)
 		(at 127 80.01 0)
@@ -12166,30 +12286,6 @@
 		(uuid "e43eeb0c-0a08-49f4-9110-a18ab476d5c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.3 313.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO2"
-		(shape input)
-		(at 120.65 358.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5bc913a-c864-440e-855e-39cf6ab81422")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.98 358.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12345,6 +12441,30 @@
 			)
 		)
 	)
+	(global_label "U0TXD"
+		(shape input)
+		(at 134.62 363.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6bf0abd-f344-4022-bb57-2a7c0296e501")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.5923 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VCC_5V"
 		(shape input)
 		(at 134.62 113.03 90)
@@ -12366,30 +12486,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO3"
-		(shape input)
-		(at 120.65 360.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc262940-47c9-4c13-aa73-a5b91a92ca4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.98 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -12907,6 +13003,84 @@
 			(project "Garage-Door-Controller"
 				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 297.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1052d08c-0b31-46f1-a069-d125fd9f4749")
+		(property "Reference" "#PWR034"
+			(at 60.96 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 302.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96450127-d1a0-48ab-a94d-9a76315609f8")
+		)
+		(instances
+			(project "Garage-Door-Controller"
+				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -16772,6 +16946,88 @@
 			(project "Garage-Door-Controller"
 				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Shield")
+		(at 63.5 289.56 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80dcfa12-f2a8-4b88-953b-5645f976427e")
+		(property "Reference" "AE1"
+			(at 59.69 287.6549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 66.294 282.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
+			(at 63.5 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 63.5 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59880942-5701-470c-be9a-ad0655e833c1")
+		)
+		(pin "2"
+			(uuid "4ff4441e-800d-4cda-9f0e-06b0cdc5958f")
+		)
+		(instances
+			(project "Garage-Door-Controller"
+				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -21093,85 +21349,6 @@
 			(project "Garage-Door-Controller"
 				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna")
-		(at 76.2 287.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb17d047-9001-4159-8911-6d4d63c43a22")
-		(property "Reference" "AE1"
-			(at 78.74 286.3849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 78.74 288.9249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
-			(at 76.2 287.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 287.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Antenna"
-			(at 76.2 287.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef9712e1-f937-4013-9ed9-bdbfde03ad31")
-		)
-		(instances
-			(project "Garage-Door-Controller"
-				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
-					(reference "AE1")
 					(unit 1)
 				)
 			)
