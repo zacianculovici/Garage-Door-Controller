@@ -647,7 +647,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -670,7 +670,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -721,7 +721,7 @@
         "uuid": "8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
       }
     ],
-    "used_designators": "#PWR34,AE2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
