@@ -113,6 +113,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -9457,6 +9458,15 @@
 		(uuid "2ceea3f2-49a1-423c-b2ac-e77e371e8e62")
 	)
 	(via
+		(at 38.116 44.349)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "32b19d09-cb64-4c27-ba8d-9a3945d71b6a")
+	)
+	(via
 		(at 34.548 63.575)
 		(size 0.6)
 		(drill 0.3)
@@ -9534,6 +9544,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "55aeaff2-de77-4acd-abcc-168f7b07f8e7")
+	)
+	(via
+		(at 37.668 47.025)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "59057ef7-2159-4eaf-aae6-889a14ff4201")
 	)
 	(via
 		(at 40.458 43.68941)
@@ -9658,6 +9677,24 @@
 		(free yes)
 		(net "GND")
 		(uuid "8512e3da-e4e3-4f64-b065-14e625b2fa67")
+	)
+	(via
+		(at 38.116 45.756)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "8583fbf8-ddfc-4aa6-862e-62cfeb193cc3")
+	)
+	(via
+		(at 38.132 45.039)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "8846ce3c-7b90-44ab-9c2f-2936f84cd5cf")
 	)
 	(via
 		(at 37.136 66.803)
@@ -9981,7 +10018,7 @@
 	(segment
 		(start 37.258 45.045001)
 		(end 37.258 42.8395)
-		(width 0.18)
+		(width 0.2062)
 		(layer "F.Cu")
 		(net "Net-(AE1-A)")
 		(uuid "cc02b014-63ed-4071-8aef-bb6aec21497e")
@@ -10478,7 +10515,7 @@
 	(segment
 		(start 35.699062 47.733312)
 		(end 37.258 46.174374)
-		(width 0.18)
+		(width 0.2062)
 		(layer "F.Cu")
 		(net "Net-(U4-LNA_IN)")
 		(uuid "0cb19a47-3478-47ba-ad68-3d7c5b119084")
@@ -10486,7 +10523,7 @@
 	(segment
 		(start 37.258 46.174374)
 		(end 37.258 46.064999)
-		(width 0.18)
+		(width 0.2062)
 		(layer "F.Cu")
 		(net "Net-(U4-LNA_IN)")
 		(uuid "aabec54a-ec78-4278-bbbb-b9008f798e0e")

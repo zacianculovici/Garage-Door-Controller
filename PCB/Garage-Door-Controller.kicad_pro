@@ -532,7 +532,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18,
+        "track_width": 0.2062,
         "tuning_profile": ""
       },
       {
