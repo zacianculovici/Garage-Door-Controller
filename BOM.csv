@@ -15,12 +15,12 @@ U4,Part,1,3.2308,16.154,https://jlcpcb.com/parts,JLCPCB,Grant,,5,ESP32-C3FH4,C28
 "C1,C3,C12,C13,C16,C17,C18",Part,7,0.0127,0.5969,https://jlcpcb.com/parts,JLCPCB,Grant,,47,0.1uF,C307331
 U1,Part,1,0.2968,1.484,https://jlcpcb.com/parts,JLCPCB,Grant,,5,AMS1117-3.3,C6186
 USB2,Part,1,0.1019,0.5095,https://jlcpcb.com/parts,JLCPCB,Grant,,5,HYCW523-USBC16-735B,C53436595
-PCB,PCB,1,2.95,2.95,https://jlcpcb.com/parts,JLCPCB,Grant,,5,"",""
-Assembly,Part,1,24.1931,24.1931,https://jlcpcb.com,JLCPCB,Grant,,2,"",""
+PCB,PCB,1,2.96,2.96,https://jlcpcb.com/parts,JLCPCB,Grant,,5,"",""
+Assembly,Tax or fee,1,19.6231,19.6231,https://jlcpcb.com,JLCPCB,Grant,,2,"",""
 Assembly Coupon,Tax or fee,1,-15.75,-15.75,https://jlcpcb.com,JLCPCB,Grant,This is the U$10 coupon at JLCPCB,1,"",""
 Box,3D printed,1,0.96,0.96,https://jlcpcb.com,JLC3DP,Grant,,1,"",""
 Lid,3D printed,1,0.47,0.47,https://jlcpcb.com,JLC3DP,Grant,,1,"",""
-Shipping,Shipping,2,2.21,4.42,https://jlcpcb.com,Global Standard Direct Line,Grant,,2,"",""
+Shipping,Shipping,2,2.22,4.44,https://jlcpcb.com,Global Standard Direct Line,Grant,,2,"",""
 Heatset Insert,Part,2,0.00,0.00,,,Already own,,2,M3x5x4,""
 Bolt,Part,2,0.00,0.00,,,Already own,,2,M3x8,""
-Total,,,,39.31,,,,,,,
+Total,,,,34.77,,,,,,,
