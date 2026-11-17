@@ -1,26 +1,26 @@
-Part,Type,Quantity,Unit price (AUD),Line total (AUD),Link,Vendor,Funding,Notes,Qty,Value,LCSC
-R9,Part,1,0.0018,0.036,https://jlcpcb.com/parts,JLCPCB,Grant,,20,0R,C17168
-"C19,C21",Part,2,0.0037,0.074,https://jlcpcb.com/parts,JLCPCB,Grant,,20,12pF,C1547
-"C1,C3,C12,C13,C16,C17,C18",Part,7,0.0127,0.5969,https://jlcpcb.com/parts,JLCPCB,Grant,,47,0.1uF,C307331
+Part,Type,Quantity Needed,Unit price (AUD),Line total (AUD),Link,Vendor,Funding,Notes,Qty,Value,LCSC
 "C2,C5",Part,2,0.029,0.58,https://jlcpcb.com/parts,JLCPCB,Grant,,20,10uF,C15525
-"R5,R6",Part,2,0.0015,0.0375,https://jlcpcb.com/parts,JLCPCB,Grant,,25,22R,C25092
-R4,Part,1,0.0043,0.086,https://jlcpcb.com/parts,JLCPCB,Grant,,20,200R,C25087
+"SW1,SW3",Part,2,0.0761,1.0654,https://jlcpcb.com/parts,JLCPCB,Grant,,14,"BOOT,RST",C720477
+"C19,C21",Part,2,0.0037,0.074,https://jlcpcb.com/parts,JLCPCB,Grant,,20,12pF,C1547
 R8,Part,1,0.0016,0.032,https://jlcpcb.com/parts,JLCPCB,Grant,,20,330R,C25104
+U7,Part,1,0.0022,0.011,https://jlcpcb.com/parts,JLCPCB,Grant,,5,40MHz,C1870448
+R4,Part,1,0.0043,0.086,https://jlcpcb.com/parts,JLCPCB,Grant,,20,200R,C25087
 "R3,R7",Part,2,0.0021,0.0525,https://jlcpcb.com/parts,JLCPCB,Grant,,25,5k1,C25905
 "R11,R15,R16,R17",Part,4,0.0022,0.077,https://jlcpcb.com/parts,JLCPCB,Grant,,35,10k,C25744
-U7,Part,1,0.0022,0.011,https://jlcpcb.com/parts,JLCPCB,Grant,,5,40MHz,C1870448
-U1,Part,1,0.2968,1.484,https://jlcpcb.com/parts,JLCPCB,Grant,,5,AMS1117-3.3,C6186
-"SW1,SW3",Part,1,0.0761,1.0654,https://jlcpcb.com/parts,JLCPCB,Grant,,14,"BOOT,RST",C720477
-U4,Part,1,3.2308,16.154,https://jlcpcb.com/parts,JLCPCB,Grant,,5,ESP32-C3FH4,C2858491
-USB2,Part,1,0.1019,0.5095,https://jlcpcb.com/parts,JLCPCB,Grant,,5,HYCW523-USBC16-735B,C53436595
 U2,Part,1,0.1159,1.0431,https://jlcpcb.com/parts,JLCPCB,Grant,,9,OPTO,C109227
+"R5,R6",Part,2,0.0015,0.0375,https://jlcpcb.com/parts,JLCPCB,Grant,,25,22R,C25092
+R9,Part,1,0.0018,0.036,https://jlcpcb.com/parts,JLCPCB,Grant,,20,0R,C17168
 LED2,Part,1,0.0114,0.228,https://jlcpcb.com/parts,JLCPCB,Grant,,20,PWR,C2286
-PCB,PCB,1,2.95,2.95,https://jlcpcb.com/parts,JLCPCB,Grant,,5,"",""
-Assembly,Part,1,24.1931,24.1931,https://jlcpcb.com,JLCPCB,Grant,,2,"",""
+U4,Part,1,3.2308,16.154,https://jlcpcb.com/parts,JLCPCB,Grant,,5,ESP32-C3FH4,C2858491
+"C1,C3,C12,C13,C16,C17,C18",Part,7,0.0127,0.5969,https://jlcpcb.com/parts,JLCPCB,Grant,,47,0.1uF,C307331
+U1,Part,1,0.2968,1.484,https://jlcpcb.com/parts,JLCPCB,Grant,,5,AMS1117-3.3,C6186
+USB2,Part,1,0.1019,0.5095,https://jlcpcb.com/parts,JLCPCB,Grant,,5,HYCW523-USBC16-735B,C53436595
+PCB,PCB,1,2.96,2.96,https://jlcpcb.com/parts,JLCPCB,Grant,,5,"",""
+Assembly,Tax or fee,1,19.6231,19.6231,https://jlcpcb.com,JLCPCB,Grant,,2,"",""
 Assembly Coupon,Tax or fee,1,-15.75,-15.75,https://jlcpcb.com,JLCPCB,Grant,This is the U$10 coupon at JLCPCB,1,"",""
 Box,3D printed,1,0.96,0.96,https://jlcpcb.com,JLC3DP,Grant,,1,"",""
 Lid,3D printed,1,0.47,0.47,https://jlcpcb.com,JLC3DP,Grant,,1,"",""
-Shipping,Shipping,2,2.21,4.42,https://jlcpcb.com,Global Standard Direct Line,Grant,,2,"",""
+Shipping,Shipping,2,2.22,4.44,https://jlcpcb.com,Global Standard Direct Line,Grant,,2,"",""
 Heatset Insert,Part,2,0.00,0.00,,,Already own,,2,M3x5x4,""
 Bolt,Part,2,0.00,0.00,,,Already own,,2,M3x8,""
-Total,,,,39.31,,,,,,,
+Total,,,,34.77,,,,,,,
