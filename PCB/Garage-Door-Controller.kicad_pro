@@ -62,6 +62,22 @@
       ],
       "drc_exclusions": [
         [
+          "hole_clearance|29477000|75753000|024eeea4-429b-4d87-af95-bda85bd48009|c22e1a31-7602-41a5-83bd-46adb7752a1e",
+          ""
+        ],
+        [
+          "hole_clearance|29677000|75753000|6cbb255d-973d-4d5b-8d33-dc3a13c1f11e|c22e1a31-7602-41a5-83bd-46adb7752a1e",
+          ""
+        ],
+        [
+          "hole_clearance|35077000|75753000|6c3d451b-9069-4dc5-9288-48295e98d27b|387a683d-3427-416f-a4d4-bc27903f5bab",
+          ""
+        ],
+        [
+          "hole_clearance|35277000|75753000|9fa0b153-a481-41c9-bea3-2765f80d658e|387a683d-3427-416f-a4d4-bc27903f5bab",
+          ""
+        ],
+        [
           "starved_thermal|29177000|75103000|6feab000-aeb2-47a4-8eed-36d094b5023c|024eeea4-429b-4d87-af95-bda85bd48009|F.Cu",
           ""
         ],
@@ -730,7 +746,7 @@
         "uuid": "8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
       }
     ],
-    "used_designators": "1",
+    "used_designators": "#PWR14,LED1,LED3,R10",
     "variants": []
   },
   "sheets": [

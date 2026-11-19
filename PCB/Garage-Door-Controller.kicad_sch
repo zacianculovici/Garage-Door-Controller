@@ -1619,6 +1619,202 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:0603_C72041"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C72041_LED0603-FD_BLUE"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811101510_Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C72041"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "EVERLIGHT(亿光)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603_C72041_1_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.302 0.254) (xy -2.794 0.762) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 2.286) (xy -2.286 1.27) (xy -1.778 1.778) (xy -2.794 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.508) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.302) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.508) (xy -2.794 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy -1.27 -1.778) (xy 1.27 -3.302) (xy 1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.778 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -1.778 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:ESP32-C3FH4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3810,6 +4006,12 @@
 		(uuid "2e17baa3-3fa5-4cd4-af87-de695a72d331")
 	)
 	(junction
+		(at 100.838 337.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "316da4d7-9e4b-4789-b9d2-ed60252f97b7")
+	)
+	(junction
 		(at 233.68 308.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3880,6 +4082,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ac789f3-197e-4b1e-a323-95efdf55e85a")
+	)
+	(junction
+		(at 100.838 347.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ae3f192-0eb0-4a87-9e74-bb6904806853")
 	)
 	(junction
 		(at 233.68 322.58)
@@ -4113,6 +4321,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 349.25) (xy 101.6 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d147acb-86ec-4409-bd86-265b5816a35e")
+	)
+	(wire
+		(pts
 			(xy 66.04 261.62) (xy 68.58 261.62)
 		)
 		(stroke
@@ -4273,6 +4491,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.838 337.82) (xy 104.14 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28118726-f74b-4f02-98d6-1f0d2275cff5")
+	)
+	(wire
+		(pts
 			(xy 68.58 254) (xy 68.58 261.62)
 		)
 		(stroke
@@ -4340,6 +4568,16 @@
 			(type default)
 		)
 		(uuid "38c37d2f-4e39-474c-9212-b7e3b48af9de")
+	)
+	(wire
+		(pts
+			(xy 100.838 347.98) (xy 101.6 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3913fef3-dd40-4d17-bd61-5500cc30d90d")
 	)
 	(wire
 		(pts
@@ -4853,6 +5091,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 337.82) (xy 100.838 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995d7ca2-a458-4950-bb6e-9694f7495ced")
+	)
+	(wire
+		(pts
 			(xy 48.26 347.98) (xy 48.26 345.44)
 		)
 		(stroke
@@ -5080,6 +5328,16 @@
 			(type default)
 		)
 		(uuid "ba9b3b2c-48d8-42bb-bfa8-71791608b1e7")
+	)
+	(wire
+		(pts
+			(xy 100.33 347.98) (xy 100.838 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd88c4ee-f188-4a30-a623-b17a257a1ff4")
 	)
 	(wire
 		(pts
@@ -6040,6 +6298,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO7"
+		(shape input)
+		(at 111.76 337.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ecd4a68-aad5-4b35-aea3-b9443f323068")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.43 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -9423,6 +9705,17 @@
 				)
 			)
 		)
+		(property "LCSC" "-"
+			(at 222.25 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Garage-Door-Controller"
 				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
@@ -9766,6 +10059,109 @@
 			(project "Garage-Door-Controller"
 				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:0603_C72041")
+		(at 99.06 342.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "984a71a5-616c-4a04-b89e-4e8e0d7d4399")
+		(property "Reference" "LED1"
+			(at 94.234 342.392 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BUILTIN"
+			(at 101.346 346.202 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C72041_LED0603-FD_BLUE"
+			(at 109.22 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811101510_Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf"
+			(at 98.933 345.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0603"
+			(at 99.06 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C72041"
+			(at 99.06 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "EVERLIGHT(亿光)"
+			(at 99.06 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29627f6a-d6fa-4e12-87ac-11b2011eb6ee")
+		)
+		(pin "2"
+			(uuid "30695a88-416c-4e7e-ac3a-616cf1edfd99")
+		)
+		(instances
+			(project "Garage-Door-Controller"
+				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -11056,6 +11452,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 101.6 349.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbe9e2aa-e9d9-4ded-85a1-2673b08d2718")
+		(property "Reference" "#PWR014"
+			(at 101.6 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 353.568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9c0e7a0-72a2-428e-aafa-c64ea3d6c113")
+		)
+		(instances
+			(project "Garage-Door-Controller"
+				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:HYCW523-USBC16-735B")
 		(at 62.23 355.6 270)
 		(unit 1)
@@ -11273,6 +11747,97 @@
 			(project "Garage-Door-Controller"
 				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 107.95 337.82 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3194adf-e490-418d-af21-e4e48aca5320")
+		(property "Reference" "R10"
+			(at 107.696 340.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200R"
+			(at 107.95 342.646 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.696 336.804 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 107.95 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25087"
+			(at 107.95 337.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa0dd754-f250-43e7-999c-b3bbfbe1ffc0")
+		)
+		(pin "1"
+			(uuid "64af4a26-be2c-47ec-9a4e-eb44096cdada")
+		)
+		(instances
+			(project "Garage-Door-Controller"
+				(path "/8b0ce9a6-853b-4e12-ac4b-f9d95766b3f3"
+					(reference "R10")
 					(unit 1)
 				)
 			)
