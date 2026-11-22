@@ -14,7 +14,7 @@ Garage-Door-Controller is essentially just a ESP32-C3 devboard, with an on-board
 ### PCB
 The PCB is designed to be as small as possible, and it is really just a standard ESP32-C3 devboard that I designed, but I added two mounting holes and two sets of pin headers which is a bit custom. 
 ![PCB](https://cdn.hackclub.com/01a1f2d0-e563-77bf-ab2f-39284744c89e/paste-1795075137960.png)
-### Case
+### [Case](https://cad.onshape.com/documents/283e0c7c058a35166ead487a/w/4066f8a87f001ae32717c400/e/d57d04382974445a9a2175db)
 The case is a simple 3D printed case, and I decided to make it translucent because it will look really nice. I made flexible button actuators and a screw wall hanger, and it will be screwed together with M3 bolts and heatset inserts. 
 ![Box](https://cdn.hackclub.com/01a1f2d1-6367-7050-b373-dad53a8042fc/paste-1795075170231.png)
 ![Lid](https://cdn.hackclub.com/01a1f2d1-af79-7b85-b236-50827557e5ed/paste-1795075189708.png)
