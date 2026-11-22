@@ -25,7 +25,7 @@ The case is a simple 3D printed case, and I decided to make it translucent becau
 ![Lid Spring Closeup](https://cdn.hackclub.com/01a1f2d1-ed6f-7ea2-b118-974e8c09ded1/paste-1795075204729.png)
 
 ### BOM
-Here is the [full BOM](https://github.com/zacianculovici/Garage-Door-Controller/blob/a029f9a00a2e3ce5169cb8c8ec205c3be0892deb/BOM.csv)
+Here is the [full BOM](https://github.com/zacianculovici/Garage-Door-Controller/blob/main/BOM.csv)
 | Part                      | Type       | Quantity | Unit price aud | Line total aud | Link                                                         | Vendor                      | Funding     | Notes                             | Quantity needed | Value               | Lcsc      |
 | :------------------------ | :--------- | :------- | :------------- | :------------- | :----------------------------------------------------------- | :-------------------------- | :---------- | :-------------------------------- | :-------------- | :------------------ | :-------- |
 | C2,C5                     | Part       | 20       | 0.029          | 0.58           | https://jlcpcb.com/parts/componentSearch?searchTxt=C15525    | JLCPCB                      | Grant       |                                   | 2               | 10uF                | C15525    |
