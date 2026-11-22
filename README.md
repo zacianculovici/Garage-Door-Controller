@@ -1,6 +1,6 @@
 # Garage-Door-Controller
 
-![Hackatime Stats](https://hackatime.hackclub.com/api/v1/badge/U0BMLT1CFB3/zacianculovici/Garage-Door-Controller) [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/zacianculovici/Garage-Door-Controller/tree/main/PCB)
+![Hackatime Stats](https://hackatime.hackclub.com/api/v1/badge/U0BMLT1CFB3/zacianculovici/Garage-Door-Controller) [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/zacianculovici/Garage-Door-Controller/tree/main/PCB)[![Onshape](https://img.shields.io/badge/Onshape-1B5CFF?style=flat&logo=onshape&logoColor=white)](https://cad.onshape.com/documents/283e0c7c058a35166ead487a/w/4066f8a87f001ae32717c400/e/d57d04382974445a9a2175db)
 
 ## What it is
 An ESP32-C3 based bluetooth controller for an old B&amp;D roller door. Also works as a standard devboard. 
